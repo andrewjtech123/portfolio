@@ -11,3 +11,13 @@ I’m passionate about documentation content quality and helping teams with the 
 
 I prefer work that utilizes my expertise and industry knowledge and allows me to grow as a Senior Technical Editor and teammate.
 
+## My Skills
+
+### Technical skills
+
+{% include technicalskills.md %}
+
+### Soft skills 
+
+{% include softskills.md %}
+
