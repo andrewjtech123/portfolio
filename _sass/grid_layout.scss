@@ -37,11 +37,8 @@ article.archive__item {
     height: 95px;
 
     img {
-        width: 100%;
-            height: auto
+        width: 120%;
+        max-width: 120%;
+        height: 120%
     }
-}
-#nanogallery2.nGY2 .nGY2GThumbnailImage,
-.nanogallery_gallerytheme_dark_nanogallery2 .nGY2GThumbnail {
-    background-color: white
 }
