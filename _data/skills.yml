@@ -5,8 +5,12 @@ technical:
    level: Advanced
  - title: JavaScrpt
    level: Intermediate
- - title: ReactJS
+ - title: Jira
    level: Advanced
+ - title: Figma
+   level: Advanced
+ - title: GitHub
+   level: Intermediate
 
 soft:
  - title: Leadership
