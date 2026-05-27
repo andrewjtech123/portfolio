@@ -8,6 +8,9 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.3"
+# Ruby 3.4 no longer includes these as default gems, so install them explicitly.
+gem "csv"
+gem "logger"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme"
