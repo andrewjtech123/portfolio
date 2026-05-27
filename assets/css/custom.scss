@@ -2,3 +2,41 @@
     #to make sure Jekyll reads this 
 --- 
 @import "nav";
+
+h3.archive__subtitle,
+h1.page__title {
+  font-family: "Waiting for the Sunrise", cursive;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+h3.archive__subtitle {
+  font-size: 3rem;
+  line-height: 1.02;
+  display: block;
+  margin: 3.25rem 0 2.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(16, 57, 102, 0.08);
+}
+
+.archive__subtitle + .entries-grid {
+  margin-top: 2rem;
+}
+
+/* Larger page title to match tutorial style */
+h1.page__title {
+  font-size: 4rem;
+  line-height: 1.02;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  h1.page__title { font-size: 2.5rem; }
+  h3.archive__subtitle { font-size: 2rem; }
+}
+
+h1.page__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
