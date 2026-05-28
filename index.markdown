@@ -4,10 +4,10 @@
 
 layout: home
 author_profile: true
-author: Leigh Stewardson
+author: Andrew Johnston
 ---
 
-![leigh avatar](https://placehold.co/400){: .avatar} 
+![andrew image](assets/images/aj_photo.jpg){: .avatar}
 
-# Hi! I'm Leigh Stewardson. 
-I am a self-taught programmer, instructor, product manager, game developer, painter, and writer. Check out some of my favorite articles and projects below or go to [**My Work**](/mywork) or [**My Writing**](/mywriting) to see a categorized list.
+# Hi! I'm Andrew Johnston. 
+I am a senior technical editor, business coach, and music producer. Check out some of my favorite articles and projects below or go to [**My Work**](/portfolio/mywork) or [**My Writing**](/portfolio/mywriting) to see a categorized list.

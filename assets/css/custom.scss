@@ -3,6 +3,30 @@
 --- 
 @import "nav";
 
+img.avatar {
+  float: left;
+  width: clamp(180px, 28%, 280px);
+  max-width: 280px;
+  height: auto;
+  margin: 0 2rem 2rem 0;
+}
+
+@media (max-width: 960px) {
+  img.avatar {
+    float: none;
+    display: block;
+    margin: 0 auto 2rem;
+    width: clamp(220px, 55%, 280px);
+  }
+}
+
+@media (max-width: 640px) {
+  img.avatar {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 h3.archive__subtitle,
 h1.page__title {
   font-family: "Waiting for the Sunrise", cursive;
@@ -14,6 +38,7 @@ h3.archive__subtitle {
   font-size: 3rem;
   line-height: 1.02;
   display: block;
+  clear: both;
   margin: 3.25rem 0 2.5rem;
   padding-bottom: 0.25rem;
   border-bottom: 1px solid rgba(16, 57, 102, 0.08);
