@@ -1,0 +1,11 @@
+Andrew Johnston:
+  name        : "Andrew Johnston"
+  bio         : "Let's talk about docs! Reach out via the links below."
+  avatar      : "assets/images/AJ BRANDMARK-01.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:andrew.ian.johnston1@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.andrewjohnstoncoaching.com"
