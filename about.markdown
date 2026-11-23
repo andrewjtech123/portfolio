@@ -5,6 +5,8 @@ permalink: /about/
 ---
 
 # Hi there, I’m Andrew Johnston!
+![Andrew Johnston]({{ '/assets/images/1G6A0236.JPG' | relative_url }}){: .avatar}
+
 Crafting bridges between technology and creativity, I am a seasoned technical writer and leader with a flair for innovation. From pioneering processes to nurturing talent, I facilitate seamless collaboration and drive organizations towards their strategic goals. With a diverse background spanning e-commerce to music production, I bring a unique blend of expertise and empathy to every endeavor.
 
 Currently, I'm a Senior Technical Editor at Blackberry QNX in Ottawa, based out of Aylmer and Wakefield, Quebec. I'm a Shopify Alum who worked at the company for a little over five years helping to build the API documentation team.  

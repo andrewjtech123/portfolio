@@ -145,8 +145,8 @@ h3.archive__subtitle {
 
 img.avatar {
   float: left;
-  width: clamp(180px, 28%, 280px);
-  max-width: 280px;
+  width: clamp(220px, 38%, 360px);
+  max-width: 360px;
   height: auto;
   margin: 0 2rem 2rem 0;
 }
@@ -156,7 +156,7 @@ img.avatar {
     float: none;
     display: block;
     margin: 0 auto 2rem;
-    width: clamp(220px, 55%, 280px);
+    width: clamp(260px, 65%, 360px);
   }
 }
 
