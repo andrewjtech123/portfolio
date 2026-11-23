@@ -27,3 +27,9 @@ In addition to producing, I am also a songwriter and I write songs for sync in t
 
 {% include softskills.md %}
 
+## Let's talk
+
+I'm currently looking for opportunities that draw on my expertise and industry knowledge while helping me grow as a technical communications specialist. I'm interested in technical writing, content strategy, UX, and senior management roles.
+
+[Get in touch](mailto:andrew.ian.johnston1@gmail.com){: .btn .btn--primary}
+

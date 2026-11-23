@@ -1,5 +1,6 @@
 .masthead {
-    background-color: #F9D423
+    background-color: #fff;
+    border-bottom: 1px solid #e2e8f0;
 }
 
 #site-nav {
@@ -8,10 +9,15 @@
 
 #site-nav a,
 #site-nav a:visited {
-    color: #103966;
+    color: #0a1628;
 }
 
 #site-nav a,
 #site-nav a:visited {
-    font-family: "Rubik";
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+#site-nav a:hover {
+    color: #0284c7;
 }
