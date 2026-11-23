@@ -19,16 +19,6 @@ While I was at Shopify, I had the privilege of bringing Laura Escude to Shopify 
 
 In addition to producing, I am also a songwriter and I write songs for sync in television and film. My music has been featured in major networks and in films such as “In Your Eyes” produced by Joss Wheedon’s Bellwether pictures.
 
-## My Skills
-
-### Technical skills
-
-{% include technicalskills.md %}
-
-### Soft skills 
-
-{% include softskills.md %}
-
 ## Let's talk
 
 I'm currently looking for opportunities that draw on my expertise and industry knowledge while helping me grow as a technical communications specialist. I'm interested in technical writing, content strategy, UX, and senior management roles.

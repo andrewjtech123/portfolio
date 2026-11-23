@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "The Way of the Kitchen: Agile for Technical Publications"
+title: "The Way of the Kitchen"
 date: 2026-10-27 12:00:00 -0500
 tags: [process, agile]
 author_profile: true
@@ -17,6 +17,8 @@ event_date: 2026-10-27
 event_url: "https://www.meetup.com/write-the-docs-ottawa/events/316965616/"
 event_image: "/assets/images/wtd events/event-flyer-10-27-2026.jpg"
 ---
+
+# Agile for Technical Publications
 
 ## Background
 

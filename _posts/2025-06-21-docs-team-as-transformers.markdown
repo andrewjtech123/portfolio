@@ -13,6 +13,10 @@ header:
   teaser:  https://images.unsplash.com/photo-1618945524163-32451704cbb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGhlJTIwdHJhbnNmb3JtZXJzfGVufDB8fDB8fHww
   caption: "Photo credit: [**Unsplash: Aditya Vyas**](https://unsplash.com/@aditya1702)"
 description: This project demonstrates how technical documentation teams can act as “transformers”—bridging systems, teams, and user needs to turn fragmented content into cohesive, user-centered experiences.
+event_name: "Write the Docs Ottawa"
+event_date: 2025-06-24
+event_url: "https://www.meetup.com/write-the-docs-ottawa/events/307684420/"
+event_image: "/assets/images/wtd events/event-flyer-06-24-2025.jpg"
 ---
 # Transforming BSP Documentation into a User-Centered Web Experience
 
@@ -162,11 +166,24 @@ This project established a strong foundation, but there are clear opportunities 
 
 - Connect BSP documentation more seamlessly with the broader QNX ecosystem.
 
-<a class="presentation-card" href="{{ '/assets/pdfs/BSP project presentation.pdf' | relative_url }}" target="_blank" rel="noopener">
-  <img src="{{ '/assets/images/transformers1.jpg' | relative_url }}" alt="Transformers-themed preview for the BSP project presentation">
-  <span class="presentation-card__content">
-    <span class="presentation-card__eyebrow">Project presentation</span>
-    <span class="presentation-card__title">View the BSP presentation</span>
-    <span class="presentation-card__action">Open PDF &rarr;</span>
-  </span>
-</a>
+## Resources
+
+<div class="resource-gallery" aria-label="Presentation resources">
+  <a class="resource-gallery__card" href="{{ '/assets/pdfs/BSP project presentation.pdf' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/transformers1.jpg' | relative_url }}" alt="Transformers-themed preview for the BSP project presentation">
+    <span class="resource-gallery__content">
+      <span class="resource-gallery__eyebrow">Slide deck</span>
+      <span class="resource-gallery__title">View the BSP presentation</span>
+      <span class="resource-gallery__action">Open PDF &rarr;</span>
+    </span>
+  </a>
+
+  <a class="resource-gallery__card" href="https://www.meetup.com/write-the-docs-ottawa/events/307684420/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/wtd events/event-flyer-06-24-2025.jpg' | relative_url }}" alt="Write the Docs Ottawa June 24, 2025 event flyer">
+    <span class="resource-gallery__content">
+      <span class="resource-gallery__eyebrow">Write the Docs Ottawa</span>
+      <span class="resource-gallery__title">View the meetup flyer</span>
+      <span class="resource-gallery__action">Open flyer &rarr;</span>
+    </span>
+  </a>
+</div>
