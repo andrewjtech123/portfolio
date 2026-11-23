@@ -130,6 +130,19 @@ h3.archive__subtitle {
   color: #fbbf24;
 }
 
+.site-logo img {
+  max-height: 2.5rem;
+  filter: brightness(0);
+}
+
+.site-logo + .site-title {
+  display: none;
+}
+
+.author__content .author__name {
+  display: none;
+}
+
 img.avatar {
   float: left;
   width: clamp(180px, 28%, 280px);
