@@ -161,3 +161,12 @@ This project established a strong foundation, but there are clear opportunities 
 ### Improve Cross-Product Integration
 
 - Connect BSP documentation more seamlessly with the broader QNX ecosystem.
+
+<a class="presentation-card" href="{{ '/assets/pdfs/BSP project presentation.pdf' | relative_url }}" target="_blank" rel="noopener">
+  <img src="{{ '/assets/images/transformers1.jpg' | relative_url }}" alt="Transformers-themed preview for the BSP project presentation">
+  <span class="presentation-card__content">
+    <span class="presentation-card__eyebrow">Project presentation</span>
+    <span class="presentation-card__title">View the BSP presentation</span>
+    <span class="presentation-card__action">Open PDF &rarr;</span>
+  </span>
+</a>
