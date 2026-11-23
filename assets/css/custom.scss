@@ -247,3 +247,130 @@ h3.archive__subtitle {
     min-height: 180px;
   }
 }
+
+.article-visual {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.article-visual img {
+  width: 100%;
+  max-height: 420px;
+  border: 1px solid var(--portfolio-slate);
+  border-radius: 0.35rem;
+  object-fit: contain;
+  background: #fff;
+  box-shadow: 0 0.25rem 1rem rgb(10 22 40 / 8%);
+}
+
+.article-visual figcaption {
+  margin-top: 0.75rem;
+  color: var(--portfolio-body);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.resource-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.resource-gallery__card {
+  display: grid;
+  grid-template-rows: 220px auto;
+  overflow: hidden;
+  border: 1px solid var(--portfolio-slate);
+  border-radius: 0.5rem;
+  color: var(--portfolio-charcoal);
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0.25rem 1rem rgb(10 22 40 / 8%);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.resource-gallery__card:hover,
+.resource-gallery__card:focus {
+  color: var(--portfolio-charcoal);
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1.5rem rgb(10 22 40 / 16%);
+}
+
+.resource-gallery__card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.resource-gallery__content {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.resource-gallery__eyebrow {
+  color: var(--portfolio-amber);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resource-gallery__title {
+  margin-top: 0.35rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.resource-gallery__action {
+  margin-top: 0.75rem;
+  color: var(--portfolio-link);
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .resource-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-gallery__card {
+    grid-template-rows: 200px auto;
+  }
+
+  .resource-gallery__card img {
+    height: 200px;
+  }
+}
+
+.event-meta {
+  display: none;
+}
+
+.event-hero-meta {
+  display: inline-flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: rgb(10 22 40 / 72%);
+  font-size: 0.95rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+a.event-hero-meta:hover,
+a.event-hero-meta:focus {
+  color: #fff;
+  background: rgb(10 22 40 / 88%);
+}
+
+@media (max-width: 640px) {
+  .event-hero-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

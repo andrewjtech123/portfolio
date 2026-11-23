@@ -1,0 +1,19 @@
+{% if page.event_date or page.event_url %}
+<aside class="event-meta" aria-label="Presentation event">
+  <div class="event-meta__intro">
+    <span class="event-meta__eyebrow">Presentation context</span>
+    <h2>This post began as a conference presentation</h2>
+    <p>This article is based on a talk originally given at a Write the Docs Ottawa meetup. The full slide deck is available at the end of the post.</p>
+  </div>
+  <div class="event-meta__card">
+    {% if page.event_image %}
+    <img class="event-meta__image" src="{{ page.event_image | relative_url }}" alt="{{ page.event_name | default: 'Presentation event' }} flyer">
+    {% endif %}
+    <div class="event-meta__details">
+      {% if page.event_name %}<span class="event-meta__name">{{ page.event_name }}</span>{% endif %}
+      {% if page.event_date %}<time datetime="{{ page.event_date | date: '%Y-%m-%d' }}">{{ page.event_date | date: "%B %-d, %Y" }}</time>{% endif %}
+      {% if page.event_url %}<a href="{{ page.event_url }}" target="_blank" rel="noopener">View event <span aria-hidden="true">&rarr;</span></a>{% endif %}
+    </div>
+  </div>
+</aside>
+{% endif %}

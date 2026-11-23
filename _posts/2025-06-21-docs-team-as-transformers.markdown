@@ -2,7 +2,7 @@
 layout: posts
 title:  "Docs team as transformers"
 date:   2025-06-21 19:15:27 -0500
-tags: [write the docs]
+tags: [UX, information architecture, content strategy]
 author_profile: true
 author: Andrew Johnston
 categories: [article]
