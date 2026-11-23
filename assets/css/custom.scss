@@ -192,7 +192,7 @@ h3.archive__subtitle {
   color: var(--portfolio-charcoal);
   background: #fff;
   text-decoration: none;
-  box-shadow: 0 0.25rem 1rem rgb(10 22 40 / 8%);
+  box-shadow: 0 0.25rem 1rem rgba(10, 22, 40, 0.08);
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
@@ -200,7 +200,7 @@ h3.archive__subtitle {
 .presentation-card:focus {
   color: var(--portfolio-charcoal);
   transform: translateY(-3px);
-  box-shadow: 0 0.5rem 1.5rem rgb(10 22 40 / 16%);
+  box-shadow: 0 0.5rem 1.5rem rgba(10, 22, 40, 0.16);
 }
 
 .presentation-card img {
@@ -260,7 +260,7 @@ h3.archive__subtitle {
   border-radius: 0.35rem;
   object-fit: contain;
   background: #fff;
-  box-shadow: 0 0.25rem 1rem rgb(10 22 40 / 8%);
+  box-shadow: 0 0.25rem 1rem rgba(10, 22, 40, 0.08);
 }
 
 .article-visual figcaption {
@@ -286,7 +286,7 @@ h3.archive__subtitle {
   color: var(--portfolio-charcoal);
   background: #fff;
   text-decoration: none;
-  box-shadow: 0 0.25rem 1rem rgb(10 22 40 / 8%);
+  box-shadow: 0 0.25rem 1rem rgba(10, 22, 40, 0.08);
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
@@ -294,7 +294,7 @@ h3.archive__subtitle {
 .resource-gallery__card:focus {
   color: var(--portfolio-charcoal);
   transform: translateY(-3px);
-  box-shadow: 0 0.5rem 1.5rem rgb(10 22 40 / 16%);
+  box-shadow: 0 0.5rem 1.5rem rgba(10, 22, 40, 0.16);
 }
 
 .resource-gallery__card img {
@@ -355,7 +355,7 @@ h3.archive__subtitle {
   padding: 0.55rem 0.8rem;
   border-radius: 0.25rem;
   color: #fff;
-  background: rgb(10 22 40 / 72%);
+  background: rgba(10, 22, 40, 0.72);
   font-size: 0.95rem;
   line-height: 1.2;
   text-decoration: none;
@@ -364,7 +364,7 @@ h3.archive__subtitle {
 a.event-hero-meta:hover,
 a.event-hero-meta:focus {
   color: #fff;
-  background: rgb(10 22 40 / 88%);
+  background: rgba(10, 22, 40, 0.88);
 }
 
 @media (max-width: 640px) {
